@@ -69,10 +69,10 @@ struct ContentView: View {
         Image1 = "card" + String(random1)
         Image2 = "card" + String(random2)
         if random1 > random2 {
-            playerScore = playerScore + 1
+            playerScore += 1
         }
         else if random2 > random1{
-            cpuScore = cpuScore + 1
+            cpuScore += 1
         }
     }
 }
